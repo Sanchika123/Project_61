@@ -1,0 +1,154 @@
+body {
+
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+#drawing {
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+
+
+h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#hobby {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: 200;
+}
+
+
+
+.menu{
+list-style: none;
+position: fixed;
+top: 0px;
+margin-top: 0px;
+cursor: pointer;
+z-index: 10;
+background-color: aliceblue;
+width: 100%;
+}
+
+.links{
+padding-right: 25px;
+padding-left: 33px;
+font-size: 20px;
+font-family: fantasy;
+display: inline;
+}
+
+.links:hover{
+background-color: darkgray;
+font-family: 'Oi', cursive;
+text-decoration: underline;
+font-size: 25px;
+}
+
+a{
+text-decoration: none;
+color: black;
+text-shadow: 2px 2px gainsboro;
+
+}
+
+#myhobby {
+    background: linear-gradient(white 0%, yellow 50%, pink 100%);
+    opacity: 0.83;
+}
+
+#about {
+    margin: 0;
+    padding-top: 0px;
+    text-align: center;
+    background: linear-gradient(#FFFFFF 0%, #add8e6 50%);
+    opacity: 0.83;
+    height: 450;
+}
+
+#plants {
+    width: 400px;
+    height: 550px
+}
+
+#fruits {
+    width: 400px;
+    height: 300px
+}
+
+#animal {
+    width: 400px;
+    height: 300px
+}
+
+#work {
+    background: linear-gradient(white 0%, pink 50%);
+    opacity: 0.83;
+}
+
+#inspiration {
+    background: linear-gradient(#FFFFFF 0%, #99FFFF 50%);
+    opacity: 0.83;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.artist {
+    width: 400px;
+    height: 400px
+}
+
+.contact1 a {
+    text-shadow: none;
+    color: white;
+
+}
+
+#contact {
+    background-color:crimson;
+margin-top: 10px;
+}
+
+
+#paintings{
+ width: 400px;
+ height: 500px
+}
+
+#paintings:hover {
+  width: 370px;
+ height: 470px;
+    background-color: azure;
+}
+
+#paintings2{
+ width:500px;
+ height: 250px
+}
+
+#paintings2:hover {
+  width: 470px;
+ height: 220px;
+    background-color: azure;
+}
